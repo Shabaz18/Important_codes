@@ -1,5 +1,12 @@
 # DATA_STRUCTURES_ALGORITHMS
-## creation of a binary search tree
+## creation of simple binary search tree
+class TreeNode:
+    def __init__(self, key):
+        self.key = key
+        self.left = None
+        self.right = None
+        
+## method for creation of a binary search tree
 
 data = tree_tuple = ((1,3,None), 2, ((None, 3, 4), 5, (6, 7, 8)))
 
@@ -14,3 +21,4 @@ def parse_tuple(data):
     else:
         node = TreeNode(data)
     return node
+
